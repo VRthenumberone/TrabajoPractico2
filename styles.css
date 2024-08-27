@@ -1,0 +1,42 @@
+*{font-family: "Sora", sans-serif;}
+body{background-color: rgba(0, 0, 0, 0.993);}
+h2{color: rgb(240, 251, 255);
+display: flex; justify-content: center;
+align-items: center;}
+.imagen1{ width: 200px;
+height: 200px;}
+.centrado{display: flex;
+justify-content: center;
+align-items: center;
+}
+.img2 {width: 230px;
+height: 230px;}
+
+a{color: rgb(253, 252, 252);}
+
+.img2:hover {
+    width: 300px; height: 300px;
+}
+
+@media only screen and ( max-width: 500px) { 
+    body {background-color: rgb(0, 0, 0);}
+}
+
+@media only screen and ( min-width: 501px) and (max-width: 960px) { 
+    body {background-color: rgb(0, 0, 0);}
+}
+
+@media only screen and ( min-width: 961px) { 
+    body {background-color: rgb(15, 1, 1);}
+}
+p{color: aqua;
+text-align: center;}
+
+.centrado3{color: black;}
+
+@media only screen and ( max-width: 500px) { .solomobile {background-color: brown;}}
+
+@media only screen and  ( min-width: 501px) and (max-width: 960px) { .solotablet {background-color: rgb(233, 3, 214);}}
+
+@media only screen and ( min-width: 961px){ .solodesktop {background-color: rgb(1, 68, 17);}}
+
